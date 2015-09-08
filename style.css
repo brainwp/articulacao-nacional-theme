@@ -948,7 +948,7 @@ label {
   font-weight: 700;
   margin-bottom: 15px;
 font-size: 1.5em;
-font-family: "Allan","Arial",sans-serif;
+font-family: "Roboto","Arial",sans-serif;
 }
 select {
   max-width: 100%;
@@ -998,7 +998,7 @@ input[type="button"],
 .navigation a,
 button {
   display: inline-block;
-  line-height: 1;
+  line-height: 1.8;
   -webkit-font-smoothing: antialiased;
   border: 0;
   text-decoration: none;
@@ -1006,17 +1006,17 @@ button {
   -webkit-border-radius: 0.327em;
   border-radius: 0.327em;
   color: #ffffeb;
-  background-color: #399CA1;
+  background-color: #E1803B;
   font-weight: 700;
-  font-family: "Allan","Arial",sans-serif;
-  font-size: 1.5em;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1em;
 }
 input[type="submit"]:hover,
 .button:hover,
 input[type="button"]:hover,
 .navigation a:hover,
 button:hover {
-  background-color: #28888C;
+  background-color: #CE3418;
   color: #ffffeb;
 }
 #wp-posttext-wrap {
@@ -1031,7 +1031,7 @@ button:hover {
  * Style
  */
 a {
-  color: #42a2ce;
+  color: #E1803B;
   font-weight: 700;
   text-decoration: none;
 }
@@ -1068,14 +1068,14 @@ a:hover {
   margin-bottom: 2.618em;
   padding: 1.618em 0;
   position: relative;
-  background-color: #399CA1;
+  background-color: #4D4B4C;
 }
 #header small {
   display: none;
 }
 #header h1 {
   margin: 0;
-  font-family:"Allan", "Arial", sans-serif;
+  font-family:"Roboto", "Arial", sans-serif;
   font-size: 2em;
 }
 #header h1 a {
@@ -1187,7 +1187,7 @@ img.avatar {
   -moz-transition: all ease 0.4s;
   -o-transition: all ease 0.4s;
   transition: all ease 0.4s;
-  font-family:"Allan", "Arial", sans-serif;
+  font-family:"Roboto", "Arial", sans-serif;
 }
 #postbox #post-prompt a {
   text-decoration: none;
@@ -1282,8 +1282,8 @@ img.avatar {
 }
 #postbox .postbox-sidebar .widget_text {
   padding: 1.618em;
-  border-top: 1.618em solid #9DD9DB;
-  background-color: #DEEAEA;
+  border-top: 1.618em solid #CE3418;
+  background-color: #F2D6D2;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   position: relative;
@@ -1454,7 +1454,7 @@ h2 .controls a#togglecomments:before {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-width: 1px 0;
-  font-family:"Allan", "Arial", sans-serif;
+  font-family:"Roboto", "Arial", sans-serif;
   font-weight: bold;
 }
 #postlist {
@@ -2212,12 +2212,12 @@ h2 .controls a#togglecomments:before {
  */
 
 h2.widgettitle {
-  font-family:"Allan", "Arial", sans-serif;
+  font-family:"Roboto", "Arial", sans-serif;
   font-weight: bold;
 }
 h2.titulo {
 	font-size: 2em;
-	font-family: "Allan","Arial",sans-serif;
+	font-family: "Roboto","Arial",sans-serif;
 	padding: 30px 0px 15px 30px;
 	border-left: 1px solid #DDD !important;
 	margin-bottom: 0px;
@@ -2225,10 +2225,11 @@ h2.titulo {
 }
 
 .logo-rede {
-  background: url(images/logo_rpfr-branco.png) transparent no-repeat scroll center top;
+    background: url(images/logo_encontro-branco.png) transparent no-repeat scroll center 15px;
+    background-size: 100%;
   float: right;
   text-indent: -99999px;
-  width: 367px;
+  width: 440px;
   min-height: 92px;
 }
 
