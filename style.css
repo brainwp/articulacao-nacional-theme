@@ -1374,24 +1374,24 @@ h2 .controls a#directions-keyboard:before {
   line-height: 2;
 }
 h2 .controls a#togglecomments:before {
-  font-family: 'FontAwesome';
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
-  text-indent: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  content: "\f179";
-  content: "\f0e6";
-  line-height: 2;
+	font-family: 'FontAwesome';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: -10px;
+	left: 8px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: "";
+	line-height: 2;
+	font-size: 2em;
 }
 /**
  * Navigation
@@ -1832,6 +1832,7 @@ h2 .controls a#togglecomments:before {
   color: #42a2ce;
   width: 1.618em;
   height: 1.618em;
+font-size: 1.5em;
 }
 #postlist .meta .actions .thepermalink:before,
 #postlist .meta .actions .comment-reply-link:before,
