@@ -13,14 +13,30 @@ get_header();
 			<h2 class="titulo">
 				Já possui conta? Então <a href="<?php echo wp_login_url();?>">faça login</a>!
 			</h2><!-- .hentry -->
-			<p>
+			<h4>
 				Redefinir senha? <a href="<?php echo wp_lostpassword_url();?>">Clique aqui</a>!
-			</p><!-- .hentry -->
+			</h4><!-- .hentry -->
 			<li class="hentry">
 				<form action="<?php echo home_url();?>?do_register=true" id="form-register" method="POST">
 					<label>
 						Nome completo:
 						<input type="text" name="name" required>
+					</label>
+					<label>
+						Polo:
+						<?php if( !is_multisite() ) : ?>
+							<input type="text" name="polo" required>
+						<?php else : ?>
+							<?php $current = get_current_blog_id();?>
+							<?php $sites = wp_get_sites();?>
+							<select name="polo" required>
+								<?php foreach ($sites as $site) : ?>
+									<?php if( $site['blog_id'] == $current ) continue; ?>
+									<?php $infos = get_blog_details( array( 'blog_id' => $site['blog_id'] ) );?>
+									<option value="<?php echo esc_attr( $infos->blogname );?>"><?php echo $infos->blogname;?></option>
+								<?php endforeach;?>
+							</select>
+						<?php endif;?>
 					</label>
 					<label>
 						Telefone:
