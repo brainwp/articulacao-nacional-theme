@@ -90,7 +90,7 @@ if(function_exists("register_field_group"))
 /* ODIN FIELDS */
 $odin_theme_options = new Odin_Theme_Options(
     'odin-options', // Slug/ID da página (Obrigatório)
-    __( 'Brasa Theme Options', 'odin' ), // Titulo da página (Obrigatório)
+    __( 'Lista de Organizações', 'odin' ), // Titulo da página (Obrigatório)
     'manage_options' // Nível de permissão (Opcional) [padrão é manage_options]
 );
 $odin_theme_options->set_tabs(
