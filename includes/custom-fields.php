@@ -50,21 +50,6 @@ if(function_exists("register_field_group"))
 				'formatting' => 'html',
 				'maxlength' => '',
 			),
-			array (
-				'key' => 'field_55ca36ac634be',
-				'label' => 'No projeto você é:',
-				'name' => 'user_type',
-				'type' => 'radio',
-				'choices' => array (
-					'Mediador(a)' => 'Mediador(a)',
-					'Jogador(a)' => 'Jogador(a)',
-					'Educador(a)' => 'Educador(a)',
-				),
-				'other_choice' => 1,
-				'save_other_choice' => 0,
-				'default_value' => '',
-				'layout' => 'vertical',
-			),
 		),
 		'location' => array (
 			array (
